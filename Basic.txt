@@ -1,0 +1,109 @@
+# Basic Linux Shell Commands
+
+1. **pwd**: Print the current working directory.
+
+
+2. **ls**: List files and directories.
+
+
+3. **cd**: Change directory.
+
+
+4. **mkdir**: Create a new directory.
+
+
+5. **rmdir**: Remove an empty directory.
+
+
+6. **cp**: Copy files or directories.
+
+
+7. **mv**: Move or rename files and directories.
+
+
+8. **rm**: Remove files or directories.
+
+
+9. **touch**: Create an empty file.
+
+
+10. **cat**: Display the contents of a file.
+ ```
+ cat file_name
+ ```
+
+11. **echo**: Display a message or variable.
+ ```
+ echo "Hello, World!"
+ ```
+
+12. **man**: Display the manual for a command.
+ ```
+ man command_name
+ ```
+
+13. **chmod**: Change file permissions.
+ ```
+ chmod permissions file_name
+ ```
+
+14. **chown**: Change the owner of a file or directory.
+ ```
+ chown new_owner:new_group file_name
+ ```
+
+15. **ps**: Display information about running processes.
+ ```
+ ps
+ ```
+
+16. **kill**: Terminate a process.
+ ```
+ kill process_id
+ ```
+
+17. **top**: Display real-time system information.
+ ```
+ top
+ ```
+
+18. **grep**: Search for a pattern in files.
+ ```
+ grep pattern file_name
+ ```
+
+19. **find**: Search for files and directories.
+ ```
+ find directory -name file_name
+ ```
+
+20. **tar**: Create or extract tar archives.
+ ```
+ tar options archive_name files
+ ```
+
+21. **gzip**: Compress or decompress files.
+ ```
+ gzip file_name
+ ```
+
+22. **df**: Display disk space usage.
+ ```
+ df
+ ```
+
+23. **du**: Display file and directory space usage.
+ ```
+ du
+ ```
+
+24. **ssh**: Connect to a remote server.
+ ```
+ ssh user@hostname
+ ```
+
+25. **scp**: Copy files between local and remote machines.
+ ```
+ scp source_file user@hostname:destination
+ ```
+These are just some basic commands, and there are many more available in the Linux shell. You can explore the manual pages (`man`) for each command to learn more about their options and usage.
